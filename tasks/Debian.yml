@@ -26,7 +26,7 @@
       - install
 
 - name: install required system packages
-  apt: name={{ item }} state=latest
+  apt: name={{ item }} state=present
   with_items:
       - "nginx{{ '-extras' if ansible_distribution != 'Debian' else '-full' }}"
   tags:
