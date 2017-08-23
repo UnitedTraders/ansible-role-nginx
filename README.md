@@ -1,6 +1,6 @@
 # nginx role
 
-Get with ```git clone https://github.com/gitinsky/ansible-role-nginx.git roles/nginx```
+Get with ```git clone https://github.com/UnitedTraders/ansible-role-nginx/ roles/nginx```
 
 Installs nginx, adds two handlers for reload, ```nginx reload``` and ```reload nginx```.
 
