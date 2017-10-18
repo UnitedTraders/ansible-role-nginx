@@ -2,3 +2,5 @@
 nginx_no_default: yes
 root: /usr/share/nginx/html
 install_default_site: yes
+nginx_gzip: true
+nginx_gzip_comp_level: 3
