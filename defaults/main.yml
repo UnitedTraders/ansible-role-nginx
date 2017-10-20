@@ -4,3 +4,4 @@ root: /usr/share/nginx/html
 install_default_site: yes
 nginx_gzip: true
 nginx_gzip_comp_level: 3
+nginx_server_names_hash_bucket_size: 64
